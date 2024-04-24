@@ -34,7 +34,7 @@ const Card = (props) => {
         
         <StarIcon className='star-icon' sx={{fontSize :  32}}/>
             <p className='mt-1 ml-1 text-lg'>{props.item.stats.rating}</p>
-            <p className='mt-1 ml-1 text-lg text-gray-500'>({props.item.reviewCount}) { props.item.location}</p>
+            <p className='mt-1 ml-1 text-lg text-gray-500'>({props.item.stats.reviewCount}) { props.item.location}</p>
    
       </div>
       <p className='text-lg  mb-1'>{props.item.title}</p>
